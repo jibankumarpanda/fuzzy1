@@ -2,8 +2,8 @@ package basicsof_java;
 
 public class number{
     public static void main(String[] arg){
-        int x;
-        x=4;
+        boolean x;
+        x=1>=5;
         System.out.println(x);
     }
 }

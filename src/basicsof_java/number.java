@@ -7,6 +7,7 @@ public class number{
         // boolean x;
         // x=1>=5;
         // System.out.println(x);
+        
         int a = 5;
         int b = 10;
         //sout

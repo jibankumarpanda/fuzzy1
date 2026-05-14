@@ -6,7 +6,8 @@ public class practice {
         int b ;
         System.err.println("Before loop:");
         for(int i = 0; i < 10; i++) {
-            System.out.println("Practice");
+            System.out.println("Practice " + i);
+            
         }
     }
 }

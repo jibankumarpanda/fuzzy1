@@ -6,7 +6,7 @@ public class absolute {
         System.out.println("enter the number: ");
         int num = sc.nextInt();
         if(num < 0){
-            num = num * -1;
+            num = num * (-1);
         }
         System.out.println("absolute value is: " + num);
         sc.close();

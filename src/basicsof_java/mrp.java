@@ -12,9 +12,7 @@ public enum mrp {
 
         float discountammount = mrp * (discountpercent / 100);
         float finalamount = mrp - discountammount;
-        
-
-
-        
+        System.out.println("discount amount: " + discountammount);
+        System.out.println("final amount: " + finalamount);
     }
 }

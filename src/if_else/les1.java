@@ -14,8 +14,9 @@ public class les1 {
             System.out.println("the elemt is even");
         }
         else{
-            System.out.println("the lement is odd");
+            System.out.println("the ement is odd");
         }
+        
         
     }
 }

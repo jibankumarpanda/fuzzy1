@@ -9,8 +9,17 @@ public class areapari {
         length = sc.nextInt();
         System.out.println("enter the breadth:");
         breadth = sc.nextInt();
+        int area = length * breadth;
         if(length == breadth) {
             System.out.println("it is a square");
+            int parimeter = 2 * (length + breadth);
+            System.out.println("parimeter of square is " + parimeter);
+            if(area > parimeter) {
+                System.out.println("area is greater than parimeter");
+            }
+            else {
+                System.out.println("area is not greater than parimeter");
+            }
         }
         else {
             System.out.println("it is not a square");

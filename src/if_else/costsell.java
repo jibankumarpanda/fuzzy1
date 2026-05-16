@@ -9,5 +9,6 @@ public class costsell {
         cost_price = sc.nextInt();
         System.out.println("enter the sell price:");
         sell_price = sc.nextInt();
+        
     }
 }

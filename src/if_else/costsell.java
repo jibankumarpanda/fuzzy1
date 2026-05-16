@@ -5,6 +5,6 @@ public class costsell {
         Scanner sc = new Scanner(System.in);
         int sell_price;
         int cost_price;
-        
+        System.out.println();
     }
 }

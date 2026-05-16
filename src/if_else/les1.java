@@ -10,13 +10,12 @@ public class les1 {
         a = sc.nextInt();
         System.out.println("enter the element b: ");
         b = sc.nextInt();
-        if(a%2==0){
+        if(a%2==0 || b%2==0){
             System.out.println("the elemt is even");
         }
         else{
             System.out.println("the ement is odd");
         }
-        
         
     }
 }

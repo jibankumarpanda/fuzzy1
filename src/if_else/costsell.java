@@ -9,6 +9,14 @@ public class costsell {
         cost_price = sc.nextInt();
         System.out.println("enter the sell price:");
         sell_price = sc.nextInt();
-        
+        if(sell_price > cost_price) {
+            System.out.println("profit");
+        }
+        else if(sell_price < cost_price) {
+            System.out.println("loss");
+        }
+        else {
+            System.out.println("no profit no loss");
+        }
     }
 }

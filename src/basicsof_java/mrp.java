@@ -11,6 +11,7 @@ public enum mrp {
         discountpercent = sc.nextFloat();
 
         float discountammount = mrp * (discountpercent / 100);
+        float finalamount = mrp - discountammount;
         
 
 

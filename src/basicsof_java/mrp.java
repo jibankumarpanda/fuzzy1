@@ -1,6 +1,6 @@
 package basicsof_java;
 import java.util.Scanner;
-public enum mrp {
+public class mrp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float mrp;

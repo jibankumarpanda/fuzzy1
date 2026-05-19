@@ -19,5 +19,6 @@ public class great {
         else {
             System.out.println("c is greatest");
         }
+        sc.close();
     }
 }

@@ -18,6 +18,11 @@ public class nestedgreat;
             }
         }
         else{
-            System.out.println("the c is greater");
-        }
+            if(b>c){
+                System.out.println("the b is greater");
+            }
+            else{
+                System.out.println("the c is greater");
+            }
     }
+}

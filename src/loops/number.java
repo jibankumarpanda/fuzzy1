@@ -7,9 +7,9 @@ public class number{
         System.out.print("enter the number: ");
         a = sc.nextInt();
         int n = 1;
-        while(n <=a){
-            System.out.println("the numbers: "+a);
-            a++;
+        while(n <= a){
+            System.out.println("the numbers: "+n);
+            n++;
         }
         sc.close();
     }

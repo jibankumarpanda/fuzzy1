@@ -6,9 +6,10 @@ public class number{
         int a;
         System.out.print("enter the number: ");
         a = sc.nextInt();
-        while(1<=a){
+        while(a<=1){
             System.out.println("the numbers: "+a);
-            a++;
+            a--;
         }
+        sc.close();
     }
 }

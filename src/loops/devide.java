@@ -10,6 +10,6 @@ public class devide {
             numofdigits++;
         }
         System.out.println("Number of digits: " + numofdigits);
-        sc.close();
+        
     }
 }

@@ -7,13 +7,15 @@ public class reverse {
         int n = sc.nextInt();
         int numberofdists=0;
         int adddigits=0;
+        int reverse=0;
         while(n>0){
             adddigits += n%10;
+            reverse = reverse * 10 + n % 10;
             n=n/10;
             numberofdists++;
         }
         System.out.println("number of digits: " + numberofdists);
         System.out.println("sum of digits: " + adddigits);
+        System.out.println("reverse of digits: " + reverse);
     }
-
 }

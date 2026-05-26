@@ -15,5 +15,5 @@ public class reverse {
         System.out.println("number of digits: " + numberofdists);
         System.out.println("sum of digits: " + adddigits);
     }
-    sc.close();
+
 }

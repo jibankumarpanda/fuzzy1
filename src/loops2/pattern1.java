@@ -8,6 +8,11 @@ public class pattern1 {
         r = sc.nextInt();
         System.out.print("enter the column: ");
         c = sc.nextInt();
-        
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=c;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }

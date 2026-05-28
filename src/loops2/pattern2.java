@@ -9,7 +9,7 @@ public class pattern2{
         System.out.print("enter the column: ");
         c = sc.nextInt();
         for(int i=1;i<=r;i++){
-            if(row==1||row==4){
+            if(row==1 && row==4){
                 system.out.print();
             }
             else{

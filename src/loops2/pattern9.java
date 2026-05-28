@@ -9,8 +9,11 @@ public class pattern9{
                 System.out.print(" ");
             }
             for(int k=1;k<=(2*i-1);k++){
-                if()
-                System.out.print(i);
+                if(i==1 || i==n || k==1 || k==2*i-1){
+                    System.out.print(i);
+                }else{
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }

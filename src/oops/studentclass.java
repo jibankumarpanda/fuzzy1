@@ -1,5 +1,5 @@
 package oops;
-
+import java.util.Scanner;
 public class studentclass {
     public static class student{
         String name;
@@ -7,6 +7,7 @@ public class studentclass {
         double percent;
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         student x = new student();
         x.name="jiban";
         x.rollno=1;

@@ -1,11 +1,7 @@
 package oops;
 import java.util.Scanner;
 public class studentclass {
-    public static class student{
-        String name;
-        int rollno;
-        double percent;
-    }
+   
     public static class car{
         String name;
         String color;

@@ -14,6 +14,9 @@ public class studentclass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         car c = new car();
+        c.name="BMW";
+        c.color="black";
+        c.price=1000000;
         student x = new student();
         x.name="jiban";
         x.rollno=1;

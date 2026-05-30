@@ -6,8 +6,14 @@ public class studentclass {
         int rollno;
         double percent;
     }
+    public static class car{
+        String name;
+        String color;
+        int price;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        car c = new car();
         student x = new student();
         x.name="jiban";
         x.rollno=1;

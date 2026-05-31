@@ -5,10 +5,10 @@ public class student {
     private int rollno;
     double percent;
 
-    public int getrollno(){
+    public int getrollno(){ //geter
         return rollno;
     }
-    public void setrollno(int rollno){
+    public void setrollno(int rollno){ //seter
         this.rollno = rollno;
     }
 

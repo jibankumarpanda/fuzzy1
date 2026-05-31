@@ -18,7 +18,6 @@ public class studentclass {
         // x.rollno=1;
         x.percent=99.9;
         System.out.println(x.name);
-        student y = new student();
         System.out.println(x.getrollno());
     }
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class constructur {
     public static void main(String[] args) {
+        student s1 = new student("jibankumarpanda", 2, 98.5);
     student x = new student();
             x.name = "jiban";
             x.rollno = 1;

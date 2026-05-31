@@ -5,6 +5,15 @@ public class student {
     int rollno;
     double percent;
 
+    // public student(String name, int rollno, double percent) {
+    //     this.name = name;
+    //     this.rollno = rollno;
+    //     this.percent = percent;
+    // }
+    public student() {
+        
+    }
+
     public int getrollno(){ //geter
         return rollno;
     }

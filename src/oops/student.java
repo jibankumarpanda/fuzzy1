@@ -1,7 +1,7 @@
 package oops;
 
 public class student {
-    private String name;
+    String name;
     int rollno;
     double percent;
 }

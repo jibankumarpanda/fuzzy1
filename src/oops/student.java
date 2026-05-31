@@ -2,7 +2,7 @@ package oops;
 
 public class student {
     String name;
-    private int rollno;
+    int rollno;
     double percent;
 
     public int getrollno(){ //geter

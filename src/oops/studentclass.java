@@ -15,9 +15,10 @@ public class studentclass {
         c.price=1000000;
         student x = new student();
         x.name="jiban";
-        x.rollno=1;
+        // x.rollno=1;
         x.percent=99.9;
         System.out.println(x.name);
         student y = new student();
+        System.out.println(x.getrollno());
     }
 }

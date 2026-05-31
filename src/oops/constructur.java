@@ -10,5 +10,8 @@ public class constructur {
         System.out.println(x.name);
         System.out.println(x.rollno);
         System.out.println(x.percent);
+        System.out.println(s1.name);
+        System.out.println(s1.rollno);
+        System.out.println(s1.percent);
 }
 }

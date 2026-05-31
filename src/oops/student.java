@@ -10,8 +10,10 @@ public class student {
     //     this.rollno = rollno;
     //     this.percent = percent;
     // }
-    public student() {
-        
+    public student(String name,int rollno,double percent) {
+        this.name = name;
+        this.rollno = rollno;
+        this.percent = percent;
     }
 
     public int getrollno(){ //geter

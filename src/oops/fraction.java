@@ -10,7 +10,9 @@ public class fraction {
         }
     }
     public static void main(String[] args) {
-        Fraction f1 = new Fraction(1, 2);
+        Fraction f1 = new Fraction( 1,  2);
         System.out.println(f1.num + "/" + f1.den);
+        Fraction f2 = new Fraction( 3,  4);
+        System.out.println(f2.num + "/" + f2.den);
     }
 }

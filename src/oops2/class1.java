@@ -10,6 +10,8 @@ public class class1{
         student x = new student();
         x.roll=1;
         x.name="jiban";
+        x.roll=1;
+        x.number=99.9;
         
     }
 }

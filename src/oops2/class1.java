@@ -8,6 +8,7 @@ public class class1 {
         int roll;
         String name;
         float number;
+        String school;
 
         // 2. Define the constructor separately
         public student(int roll, String name, float number) {
@@ -15,17 +16,21 @@ public class class1 {
             this.name = name;
             this.number = number;
         }
+        
 
         // 3. Provide a default constructor so "new student()" works
-        public student() {
+        public student(String school, String name) {
+            this.school = school;
+            this.name = name;
         }
     } 
 
     public static void main(String[] args) { 
         // This now works because of the default constructor
-        student x = new student(); 
+        student x = new student("School", "name"); 
         x.roll = 1; 
         x.name = "jiban"; 
+        x.school = "hindu";
         System.out.println(x.name); 
     } 
 }

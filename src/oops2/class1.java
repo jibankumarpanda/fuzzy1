@@ -17,6 +17,9 @@ public class class1 {
             this.number = number;
         }
         
+        public student() {
+            
+        }
 
         // 3. Provide a default constructor so "new student()" works
         public student(String school, String name) {
@@ -27,7 +30,7 @@ public class class1 {
 
     public static void main(String[] args) { 
         // This now works because of the default constructor
-        student x = new student("School", "name"); 
+        student x = new student();
         x.roll = 1; 
         x.name = "jiban"; 
         x.school = "hindu";

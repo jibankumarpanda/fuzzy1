@@ -25,4 +25,6 @@ public class nestedgreat;
                 System.out.println("the c is greater");
             }
     }
+        sc.close();
 }
+

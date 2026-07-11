@@ -1,5 +1,5 @@
 package oops2;
-import java.util.scanner;
+import java.util.Scanner;
 public class class01{
     public static void main(String[] avrg){
         Scanner sc = new scanner(system.in)

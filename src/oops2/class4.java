@@ -9,7 +9,19 @@ public class class4{
         float number;
         String school;
 
-        
-
+        public student(int class,int section,int roll,float number){
+            this.class = class;
+            this.section = section;
+            this.roll = roll;
+            this.number = number;
+        }
+        public student(String name,String school){
+            this.name = name;
+            this.school = school;
+        }
     }
+    public static void main(String[] args){
+        
+    }
+
 }

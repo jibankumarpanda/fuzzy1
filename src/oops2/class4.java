@@ -21,6 +21,12 @@ public class class4{
         }
     }
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        student x = new student();
+        x.roll=10;
+        x.class=1;
+        x.section="A";
+        x.number=100;
         
     }
 

@@ -9,7 +9,18 @@ public class class3{
         //now we are making a class which contain the all these data type with properties 
         //class name student
         public static class student{
-            
+            int[] roll=new int[5];
+            String[] name=new String[5];
+            float[] number=new float[5];
+            //constructur
+            public student(int[] roll, String[] name, float[] number){
+                this.roll = roll;
+                this.name = name;
+                this.number = number;
+            }
         }
+
+        
+
     }
 }

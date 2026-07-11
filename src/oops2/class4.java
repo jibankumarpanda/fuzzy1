@@ -27,6 +27,15 @@ public class class4{
         x.class=1;
         x.section="A";
         x.number=100;
+        x.name="jiban";
+        x.school="Hindu Mission School";
+        student y = new student();
+        y.roll=11;
+        y.class=2;
+        y.section="A";
+        y.number="99";
+        y.name="Subh";
+        y.school="Hindu mission school";
         
     }
 

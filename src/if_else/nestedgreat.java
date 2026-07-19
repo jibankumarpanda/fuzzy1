@@ -1,7 +1,8 @@
 package if_else;
 import java.util.Scanner;
-public class nestedgreat;
-    public static void main(string[] avg){
+public class nestedgreat {
+    public static void main(String[] avg){
+        Scanner sc = new Scanner(System.in);
         int a,b,c;
         System.out.println("enter the number: ");
         a = sc.nextInt();
@@ -24,7 +25,8 @@ public class nestedgreat;
             else{
                 System.out.println("the c is greater");
             }
-    }
+        }
         sc.close();
+    }
 }
 

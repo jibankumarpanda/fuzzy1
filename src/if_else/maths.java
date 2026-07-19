@@ -1,7 +1,7 @@
 package if_else;
 import java.util.Scanner;
-public class math{
-    public static void main(string[] avg){
+public class maths{
+    public static void main(String[] avg){
         Scanner sc = new Scanner(System.in);
         int x1,y1,x2,y2,x3,y3;
         System.out.println("enter the number: ");
@@ -24,5 +24,6 @@ public class math{
             else{
                 System.out.println("this is not a straightline");
             }
+        sc.close();
     }
 }

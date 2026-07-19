@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class class1 { 
     // Correct way to define an inner class
-    public static class student {
+    public static class student {//class is logical construct
         // 1. Declare the instance variables (fields)
         int roll;
         String name;

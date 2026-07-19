@@ -10,6 +10,7 @@ public class class1 {
         float number;
         String school;
 
+        //constructure is a special function that runs when we creat a object and alocate some veriables
         // 2. Define the constructor separately
         public student(int roll, String name, float number) {
             this.roll = roll;
@@ -18,7 +19,7 @@ public class class1 {
         }
         
         public student() {
-            
+            //default constructur
         }
 
         // 3. Provide a default constructor so "new student()" works

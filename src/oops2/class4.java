@@ -19,23 +19,28 @@ public class class4{
             this.name = name;
             this.school = school;
         }
+        public student(){
+    // Default constructor
+}
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        student x = new student(1, "A", 10, 100);
+        student x = new student();
         x.roll=10;
         x.classNum=1;
         x.section="A";
         x.number=100;
         x.name="jiban";
         x.school="Hindu Mission School";
-        student y = new student(2, "A", 11, 99);
+        student y = new student();
         y.roll=11;
         y.classNum=2;
         y.section="A";
         y.number=99;
         y.name="Subh";
         y.school="Hindu mission school";
+        System.out.println(x.name + " " + x.school);
+        System.out.println(y.name + " " + y.school);
         sc.close();
         
     }

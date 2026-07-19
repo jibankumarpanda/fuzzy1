@@ -51,5 +51,4 @@ public class class4{
         sc.close();
         
     }
-
 }

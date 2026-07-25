@@ -8,6 +8,13 @@ public class class4{
         String name;
         float number;
         String school;
+        
+//         this.classNum - refers to the instance variable (the field belonging to the object)
+
+// classNum (without this) - refers to the parameter passed to the constructor
+
+// Why you need it:
+// Since both the parameter and the instance variable have the same name (classNum), Java needs to know which one you mean
 
         public student(int classNum,String section,int roll,float number){
             this.classNum = classNum;

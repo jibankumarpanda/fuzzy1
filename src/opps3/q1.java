@@ -10,6 +10,8 @@ public class q1 {
         public student(int id, String name){
             this.id = id;
             this.name = name;
+             System.out.println(this.id);
+             System.out.println(this.name);
         }
 
     }
@@ -18,8 +20,8 @@ public class q1 {
         student s = new student(10 , "John");
         // s.id = sc.nextInt();
         // s.name = sc.next();
-        System.out.println(s.id);
-        System.out.println(s.name);
+        // System.out.println(s.id);
+        // System.out.println(s.name);
         sc.close();
 
 

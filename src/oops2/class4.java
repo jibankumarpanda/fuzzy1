@@ -19,7 +19,7 @@ public class class4{
             this.name = name;
             this.school = school;
         }
-        public student(){// have to use this for error handeling and code lines minimization by avoiding multiple constructors cllaing 
+        public student(){// Allows object creation without parameters - You can now call new student() without passing any arguments
             //and not use this if you want to use constructors with parameters
             // Instead of:
     // Default constructor and no-argument constructor

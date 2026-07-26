@@ -50,9 +50,6 @@ public static void main(String[] args) {
             arr[1] = temp;
             
         }
-
-       
-
 }
 // Primitive  |	Wrapper Class
 // int	      |  Integer

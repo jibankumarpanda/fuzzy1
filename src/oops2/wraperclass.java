@@ -6,6 +6,15 @@ import java.util.Scanner;
 public class wraperclass {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+// Integer a = 10;           // Wrapper object
+// Integer b = 20;           // Wrapper object
+// Integer a1 = new Integer(45);  // Wrapper object
+
+// Integer[] arr = new Integer[]{a, b};  // ← Use Integer array (wrappers)
+// swap(arr);
+// a = arr[0];
+// b = arr[1];
+
     Integer a = 10;
     Integer b = 20;
     // int a = 10;

@@ -5,5 +5,4 @@ public class class1 {
     Scanner sc = new Scanner(System.in);
     
   }
- 
 }

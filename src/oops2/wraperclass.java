@@ -14,11 +14,15 @@ public static void main(String[] args) {
     // a = sc.nextInt();
 
 
-    Integer a1 = new Integer(45); // autoboxing
-    
+    int a1 = new Integer(45); // autoboxing
 
-    swap(new int[]{a, b});
+    int[] arr = new int[]{a, b};
+    swap(arr);
+    a = arr[0];
+    b = arr[1];
+
     System.out.println(a1 + " " + a + " " + b);
+    sc.close();
     }
 //    static void swap(int a, int b){
 //         int temp = a;
@@ -34,7 +38,10 @@ public static void main(String[] args) {
             int temp = arr[0];
             arr[0] = arr[1];
             arr[1] = temp;
+            
         }
+
+       
 
 }
 

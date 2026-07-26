@@ -54,5 +54,11 @@ public static void main(String[] args) {
        
 
 }
+// Primitive  |	Wrapper Class
+// int	      |  Integer
+// double     |  Double
+// char	      |  Character
+// boolean	  |  Boolean
+
 
 

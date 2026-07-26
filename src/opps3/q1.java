@@ -23,8 +23,5 @@ public class q1 {
         // System.out.println(s.id);
         // System.out.println(s.name);
         sc.close();
-
-
-
     }
 }

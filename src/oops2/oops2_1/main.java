@@ -1,6 +1,6 @@
 package oops2.oops2_1;
 
-import oops2.oops2_1.example.Human;
+// import oops2.oops2_1.example.Human;
 
 // import oops2.oops2_1.example.Human;
 
@@ -16,7 +16,7 @@ public class main {
         System.out.println(jiban.name);
         System.out.println(ram.name);
         System.out.println(shyam.name);
-        System.out.println(Human.population);
+        System.out.println(example.Human.population);
        
     }
 }

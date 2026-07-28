@@ -4,7 +4,7 @@ public class massage{
     public static void main(String[] args) {
        printMassage();
     }
-    public static void printMassage() {
+    static void printMassage() {
        System.out.println("Hello World");
     }
 }

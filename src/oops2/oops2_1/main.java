@@ -2,8 +2,6 @@ package oops2.oops2_1;
 
 // import oops2.oops2_1.example.Human;
 
-// import oops2.oops2_1.example.Human;
-
 public class main {
     public static void main(String[] args){
         // example ex = new example();    
@@ -17,6 +15,5 @@ public class main {
         System.out.println(ram.name);
         System.out.println(shyam.name);
         System.out.println(example.Human.population);
-       
     }
 }

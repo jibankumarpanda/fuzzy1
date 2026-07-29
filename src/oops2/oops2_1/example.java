@@ -16,7 +16,6 @@ public class example {
             this.married=married;
             Human.population++;
         }
-
         public Human(){
 
         }

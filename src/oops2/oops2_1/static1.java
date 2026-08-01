@@ -5,12 +5,22 @@ public class static1{
     static int b;
 
     static{
-        System.out.println("Static block executed");
+        System.out.println("Static block executed");//this runs one time after static get load
         b = a * 4;
     }
     public static void main(String[] args){
     static1 obj = new static1();
         System.out.println("Main method executed");
         System.out.println(static1.b + " " + static1.a);
+
+    static1 obj1 = new static1();
+    static1.b++;
+        System.out.println(static1.b + " " + static1.a);
     }
 }
+
+// output
+// Static block executed
+// Main method executed
+// 16 4
+// 17 4

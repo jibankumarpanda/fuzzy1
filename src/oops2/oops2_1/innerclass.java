@@ -16,7 +16,6 @@ public class innerclass {
 public Test(String name){
     this.name = name;
 }
-
     }
     public static void main(String[] args){
         Test obj = new Test("John");

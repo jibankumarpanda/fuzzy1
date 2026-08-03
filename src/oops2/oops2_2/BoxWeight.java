@@ -5,9 +5,13 @@ public class BoxWeight extends Box {
     public BoxWeight(){
         this.weight=-1;
     }
-    BoxWeight(BoxWeight other){
+    BoxWeight(Box other){
         super(other);
-        weight=other.weight;
+        if (other instanceof BoxWeight) {
+            weight = ((BoxWeight) other).weight;
+        } else {
+            weight = -1;
+        }
     }
     BoxWeight(double side,double weight){
         super(side);

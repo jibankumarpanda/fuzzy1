@@ -1,14 +1,17 @@
 package oops2.oops2_2;
 
 public class main {
-    public static void main(String[] args) {
-        Box box = new Box(1, 2, 3);
-        box.information();
+    // public static void main(String[] args) {
+    //     Box box = new Box(1, 2, 3);
+    //     box.information();
 
 
-        BoxPrice box = new BoxPrice();
+    //     BoxPrice box = new BoxPrice(5,3,7,);
 
 
 
+    // }
+    BoxPrice box = new BoxPrice(){
+        
     }
 }

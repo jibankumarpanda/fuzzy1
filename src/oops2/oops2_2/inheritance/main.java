@@ -1,4 +1,4 @@
-package oops2.oops2_2;
+package oops2.oops2_2.inheritance;
 
 public class main {
     // public static void main(String[] args) {

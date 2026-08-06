@@ -1,4 +1,4 @@
-package oops2.oops2_2;
+package oops2.oops2_2.inheritance;
 
 public class Box {
     double l;

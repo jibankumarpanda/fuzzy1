@@ -1,6 +1,6 @@
 Problem solve 
 Recursive call
-OOPs
+OOPs(inheritance)
 fixing the solution
 2D array
 Array

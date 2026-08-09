@@ -1,6 +1,7 @@
-Problem solve 
+Problem solve
+Recursion 
 Recursive call
-OOPs
+OOPs(inheritance)
 fixing the solution
 2D array
 Array

@@ -10,5 +10,5 @@ public abstract class Son extends parent {
         // TODO Auto-generated method stub
         System.out.println("I love "+name+"she is "+age+" years old");
     }
-
+    
 }

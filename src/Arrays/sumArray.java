@@ -24,8 +24,5 @@ public class sumArray {
     public static void main(String[] args){
         sumArray obj = new sumArray();
         obj.demo();
-    }
-
-    
-    
+    } 
 }

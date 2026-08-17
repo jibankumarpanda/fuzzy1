@@ -8,7 +8,16 @@ public class searchele {
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        
+        int target=0;
+        int ans = -1;
+        System.out.println("enter the number to search: ");
+        target = sc.nextInt();
+        for(int i=0;i<arr.length;i++){
+            if(target==arr[i]){
+                ans = i;
+            }
+        }
+        System.out.println("the search number is: "+ ans);
     }
     public static void main(String[] args) {
         searchele obj = new searchele();

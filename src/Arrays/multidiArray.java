@@ -17,6 +17,7 @@ public class multidiArray {
             }
             System.out.println();
         }
+        System.out.println("");
     }
     public static void main(String[] args){
        multidiArray obj = new multidiArray();

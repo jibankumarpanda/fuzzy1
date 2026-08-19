@@ -1,5 +1,12 @@
 package Arrays;
 public class reference {
+
+    static void printArray(int[] arr){
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = new int[5];
         arr[0]=1;
@@ -8,11 +15,13 @@ public class reference {
         arr[3]=4;
         arr[4]=5;
 
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
+        printArray(arr);
 
-        
+        int[] arr_2=arr;
+        printArray(arr_2);
+        // for(int i=0;i<arr.length;i++){
+        //     System.out.println(arr_2[i]);
+        // }
 
     }
 }

@@ -4,6 +4,7 @@ public class reference {
     static void printArray(int[] arr){
         for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
+            arr[i]=0;
         }
     }
 
@@ -17,7 +18,7 @@ public class reference {
 
         printArray(arr);
 
-        int[] arr_2=arr;
+        int[] arr_2=arr.clone();
         printArray(arr_2);
         // for(int i=0;i<arr.length;i++){
         //     System.out.println(arr_2[i]);

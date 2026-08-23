@@ -1,24 +1,30 @@
 package Arrays;
 
 public class reverseusingpoint {
-    static int[] reverseArray(int arr[]){
+    static int[] reverseArray(int arr[],int k){
         int n = arr.length;
-        int i = 0;
-        int j = n-1;
-        while(i<j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            i++;
-            j--;
+        int ans[] = new int[n];
+        k = k % n;
+        
+        // Copy last k elements to the front
+        int j = 0;
+        for(int i = n - k; i < n; i++){
+            ans[j++] = arr[i];
         }
-        return arr;
+        
+        // Copy remaining elements
+        for(int i = 0; i < n - k; i++){
+            ans[j++] = arr[i];
+        }
+        
+        return ans;
     }
+    
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
-        reverseusingpoint obj = new reverseusingpoint();
-        int[] reversed = obj.reverseArray(arr);
-        System.out.println("Reversed array: " + java.util.Arrays.toString(reversed));
+        int k = 3;
+        int[] reversed = reverseArray(arr, k);
+        System.out.println("Rotated array: " + java.util.Arrays.toString(reversed));
     }
 }
 

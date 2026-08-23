@@ -13,8 +13,8 @@ public class pow {
         // for(int i=0;i<power;i++){
         //     result = result * base;
         // }
-        int result;
-        result = (int) Math.pow(base, power);
+        float result;
+        result = (float) Math.pow(base, power);
         System.out.println(result);
     }
 }

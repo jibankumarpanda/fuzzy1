@@ -11,11 +11,11 @@ public class sortArray {
         return arr;
     }
 
-    static void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+    // static void swap(int[] arr, int i, int j){
+    //     int temp = arr[i];
+    //     arr[i] = arr[j];
+    //     arr[j] = temp;
+    // }
 
     static void sortZeroAndOnes(int[] arr){
         int n = arr.length;

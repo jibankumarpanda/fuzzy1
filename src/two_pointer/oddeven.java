@@ -1,23 +1,33 @@
 package two_pointer;
+import java.util.Arrays;
 import java.util.Scanner;
 public class oddeven {
 
-    static int[] odd(int[] arr){
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    static void odd(int[] arr){
         int left = 0;
-        int right =arr.length-1;
-        while(left<right || left>right){
-            //move left if the number is odd
-            while(arr[left]%2!=0){
+        int right = arr.length - 1;
+        while(left < right){
+            //move left if the number is even (we want evens at front)
+            while(left < right && arr[left] % 2 == 0){
                 left++;
             }
-            //move right if the number is even
-            while(arr[right]%2==0){
+            //move right if the number is odd (we want odds at back)
+            while(left < right && arr[right] % 2 != 0){
                 right--;
             }
-            
+            //swap when left points to odd and right points to even
+            if(left < right){
+                swap(arr, left, right);
+                left++;
+                right--;
+            }
         }
-        
-        return arr;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -31,6 +41,9 @@ public class oddeven {
         }
         System.out.println("the orginal array: "+java.util.Arrays.toString(arr));
         obj.odd(arr);
+        
         System.out.println("the modified array: "+java.util.Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println("the sorted array: "+java.util.Arrays.toString(arr));
     }
 }

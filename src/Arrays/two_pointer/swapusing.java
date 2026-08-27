@@ -1,4 +1,4 @@
-package two_pointer;
+package Arrays.two_pointer;
 
 import java.util.*;
 

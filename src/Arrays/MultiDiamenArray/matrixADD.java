@@ -20,6 +20,5 @@ public class matrixADD {
                 matrix2[i][j]=sc.nextInt();
             }
         }
-        
     }
 }

@@ -7,6 +7,14 @@ public class multiply {
             System.out.println("the input of dimantion of matrix for multiplication is not correct.");
         }
         int[][] mul = new int[r1][c2];
+        for(int i=0;i<r1;i++){
+            for(int j=0;j<c2;j++){
+                for(int k=0;k<c1;k++){
+                    mul[i][j]+=mat1[i][k]*mat2[k][j];
+                }
+            }
+        }
+        System.out.println("the multiplication is : "+mul);
     }
 
 

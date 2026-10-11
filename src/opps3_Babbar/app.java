@@ -8,8 +8,14 @@ public class app {
         System.out.println(A.id);
         
         System.out.println(A.getGF());
-
+        A.setID(10);
+        System.out.println(A.id);
+        
         student B = new student(A);
+        B.setID(20);
+        A.setID(30);
+        System.out.println(B.id);
+        System.out.println(A.id);
         A.gfChating();
         A.bunk();
     }

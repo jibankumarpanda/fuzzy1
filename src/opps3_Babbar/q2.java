@@ -1,6 +1,8 @@
-package oops3_Babbar;
-public class q2;
+package opps3_Babbar;
 import java.util.*;
-public static void main(String[] args){
 
+public class q2 {
+    public static void main(String[] args){
+
+    }
 }

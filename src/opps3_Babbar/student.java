@@ -6,17 +6,27 @@ public class student{
     public int age;
     public String name;
     public int nos;
+    private String gf;
+
+    public String getGF(){
+        return this.gf;
+    }
+
+    public void setID(int a){
+        this.id = a;
+    }
 
     public student(){
         System.out.println("Studnet default ctor called");
     }
 
-    public student(int id, int age, String name, int nos){
+    public student(int id, int age, String name, int nos,String gf){
         System.out.println("Studnet parametrized ctor called");
         this.id = id;
         this.age = age;
         this.name = name;
         this.nos = nos;
+        this.gf = gf;
     }
 
     public student(student copy){ //copy = A
@@ -25,6 +35,7 @@ public class student{
         this.age = copy.age;
         this.name = copy.name;
         this.nos = copy.nos;
+        this.gf = copy.gf;
     }
 
     public void study(){
@@ -35,5 +46,8 @@ public class student{
     }
     public void bunk(){
         System.out.println("the student is bunking");
+    }
+    public void gfChating(){
+        System.out.println("the studnet chating with gf");
     }
 }
